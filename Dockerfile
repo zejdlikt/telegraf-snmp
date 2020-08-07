@@ -16,4 +16,5 @@ RUN export  DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get -y install snmp-mibs-downloader && \
     rm -r /var/lib/apt/lists/*
-    
+
+COPY entrypoint.sh /    
