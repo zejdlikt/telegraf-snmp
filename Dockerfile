@@ -1,4 +1,3 @@
-# Based on https://github.com/weldpua2008/docker-net-snmp
 FROM telegraf
 
 RUN export  DEBIAN_FRONTEND=noninteractive && \
