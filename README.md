@@ -1,4 +1,4 @@
-# Telegraf Docker Image with Net-SNMP
+# Telegraf Docker Image with Net-SNMP included
 
 Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs. The reason why this image has been forked ([Docker Hub link](https://hub.docker.com/r/zejdlikt/telegraf-snmp/)) is that the official one does not include the SNMP MIBs (used by the `input.snmp` input plugin), it doesnt support ARM architectures and also `config` directory is not specified.
 
