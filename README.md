@@ -11,3 +11,4 @@ Based on:
 
 * https://www.github.com/nuntz/telegraf-snmp & https://hub.docker.com/r/nuntz/telegraf-snmp/
 
+ 
